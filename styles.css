@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+    background: #fec883;
+}
+
+.nav{
+    background: #f1e3d0;
+}
+
+.nav__item{
+    display: inline-block;
+}
