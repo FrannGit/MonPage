@@ -5,33 +5,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="Imgs/logoMon.ico">
+    <!--Fuente-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>Centro Diagnóstico Mon</title>
 </head>
 <body>
-    <nav class="nav">
-        <ul class="nav__list">
-            <li class="nav__item item--portal">
-                <a href="">Portal Pacientes</a>
-            </li>
-            <li class="nav__item">
-                Servicios
-            </li>
-            <li class="nav__item">
-                Pacientes
-            </li>
-            <li class="nav__item">
-                <img src="Imgs/logoMon.ico">
-            </li>
-            <li class="nav__item">
-                Equipos
-            </li>
-            <li class="nav__item">
-                Nosotros
-            </li>
-            <li class="nav__item">
-                Medicos
-            </li>
-        </ul>
-    </nav>
+    <header class="header">
+        <nav class="nav">
+            <!--Lista de opciones del nav-->
+            <ul class="nav__list">
+                <!--Boton para ir al portal pacientes-->
+                <li class="nav__item">
+                    <a class="item__link" href="">Portal Pacientes</a>
+                </li>
+                <!--Lista de servicios-->
+                <li class="nav__item">
+                    <details class="item__details">
+                        <summary class="details__summary">Servicios</summary>
+                        <ul class="details__list">
+                            <li class="details__item"><a class="details__item item--link" href="">Resonancia Magnética</a></li>
+                            <li class="details__item"><a class="details__item item--link" href="">Tomografía Computada Multicorte</a></li>
+                            <li class="details__item"><a class="details__item item--link" href="">Mamografía digital por Tomosíntesis</a></li>
+                            <li class="details__item"><a class="details__item item--link" href="">Ecografía</a></li>
+                            <li class="details__item"><a class="details__item item--link" href="">Obstetricia</a></li>
+                            <li class="details__item"><a class="details__item item--link" href="">Radiología Digital</a></li>
+                            <li class="details__item"><a class="details__item item--link" href="">Densitometría Ósea</a></li>
+                            <li class="details__item"><a class="details__item item--link" href="">Intervencionismo</a></li>
+                        </ul>
+                    </details>
+                </li>
+                <!--Lista de opciones para pacientes-->
+                <li class="nav__item">
+                    <details class="item__details">
+                        <summary class="details__summary">Pacientes</summary>
+                        <ul class="details__list">
+                            <li class="details__item"><a class="details__item item--link" href="">Guía para el paciente</a></li>
+                            <li class="details__item"><a class="details__item item--link" href="">Servicio de WhatsApp</a></li>
+                            <li class="details__item"><a class="details__item item--link" href="">Pacientes del interior</a></li>
+                            <li class="details__item"><a class="details__item item--link" href="">Obras sociales, prepagas y A.R.T.</a></li>
+                            <li class="details__item"><a class="details__item item--link" href="">Vigencias de Ordenes Médicas</a></li>
+                        </ul>
+                    </details>
+                </li>
+                <!--Logo de MON-->
+                <li class="nav__item item--img">
+                    <img src="Imgs/logoMon.ico">
+                </li>
+                <!--Boton para ir a la pagina de muestra de equipos-->
+                <li class="nav__item">
+                    <a class="item__link" href="">Equipos</a>
+                </li>
+                <!--Lista de opciones de NOSOTROS-->
+                <li class="nav__item">
+                    <details class="item__details">
+                        <summary class="details__summary">Nosotros</summary>
+                        <ul class="details__list">
+                            <li class="details__item"><a class="details__item item--link" href="">Ubicación</a></li>
+                            <li class="details__item"><a class="details__item item--link" href="">Historia</a></li>
+                            <li class="details__item"><a class="details__item item--link" href="">Institucional</a></li>
+                            <li class="details__item"><a class="details__item item--link" href="">Nuestro espacio</a></li>
+                            <li class="details__item"><a class="details__item item--link" href="">Trabajá con nosotros</a></li>
+                            <li class="details__item"><a class="details__item item--link" href="">Política de Calidad</a></li>
+                            <li class="details__item"><a class="details__item item--link" href="">Política ambiental</a></li>
+                            <li class="details__item"><a class="details__item item--link" href="">Certificaciones</a></li>
+                        </ul>
+                    </details>
+                </li>
+                <!--Boton para ir a la pagina de medicos-->
+                <li class="nav__item">
+                    <a class="item__link" href="">Medicos</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        
+    </main>
 </body>
 </html>
