@@ -182,14 +182,14 @@ body{
     background-attachment: fixed;
     text-align: center;
     font-size: 1.8em;
-    color: #9b6b32;
+    color: #af7a3c;
 }
 
 /*Efecto opacidad*/
 .opaco{
     height: 100%;
     width: 100%;
-    background-color: #0008;
+    background-color: #0009;
 }
 
 .turnos__titulo{
@@ -204,4 +204,74 @@ body{
 
 .portal{
     text-align: center;
+}
+
+.portal__img{
+    filter: drop-shadow(0 0 5px #645745);
+}
+
+.footer{
+    background: linear-gradient(to bottom, #cfc2b1, #dfd0bc);
+    color: #7a8370;
+    position: relative;
+    margin-top: 25px;
+    min-height: 152px;
+}
+
+.footer__item{
+    display: inline-block;
+    position: absolute;
+}
+
+.item__titulo{
+    display: block;
+    margin-left: 15px;
+    color: #7877;
+}
+
+.item__text{
+    top: 43%;
+    left: 5%;
+}
+
+.item__link{
+    width: 100px;
+    height: 100px;
+    top: 30%;
+    left: 18%;
+}
+
+.item__img{
+    width: 100%; 
+    height: 100%; 
+    object-fit: contain;
+    filter: drop-shadow( 0 0 5px #aaa);
+}
+
+.item__contact{
+    top: 40%;
+    left: 45%;
+}
+
+.contact__link{
+    margin:5px;
+}
+
+.contact__img{
+    width: 35px; 
+    height: 35px; 
+}
+
+.item__location{
+    bottom: 0;
+    right: 20px;
+}
+
+.location__text{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.location__link{
+    margin-top: 50px;
 }
