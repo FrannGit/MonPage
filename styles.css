@@ -78,6 +78,7 @@ body{
 .titulo{
     text-align: center;
     margin: 0;
+    margin-top: 20px;
     font-size: 2.5em;
     color: #c4781d;
     text-shadow: 0 0 3px #684011;
@@ -87,74 +88,49 @@ body{
     text-align: center;
     padding: 0 25px;
     padding-top: 25px;
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
 
 .estudio{
+    display: inline-block;
+    position: relative;
     width: 30%;
-    height: 250px;
+    height: 285px;
     margin: 0 25px;
     margin-bottom: 30px;
-    display: inline-block;
-    /*color: #8b785e;*/
-    color: #b09064;
-    background-size: cover;
-    position: relative;
-    font-size: 1.3em;
+    color: #f2b869;
+    font-size: 1.5em;
 }
 
 .estudio--resonancia{
-    background-image:radial-gradient(
-        circle,
-        rgba(0, 0, 0, 0.5) 40%, /* Centro más oscuro */
-        rgba(0, 0, 0, 0.3) 70%, /* Opacidad intermedia */
-        rgba(0, 0, 0, 0.1) 90% /* Bordes más claros */
-    ), 
-    url("Imgs/Resonancia.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("Imgs/Resonancia.jpg");
+    background-size: cover;
     filter: drop-shadow(0 0 7px #bbb);
 }
 .estudio--tomografia{
-    background-image:radial-gradient(
-        circle, 
-        rgba(0, 0, 0, 0.5) 40%, /* Centro más oscuro */
-        rgba(0, 0, 0, 0.3) 70%, /* Opacidad intermedia */
-        rgba(0, 0, 0, 0.1) 90% /* Bordes más claros */
-    ), url("Imgs/Tomografia.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("Imgs/Tomografia.jpg");
+    background-size: cover;
     filter: drop-shadow(0 0 7px #bbb);
 }
 .estudio--mamografia{
-    background-image:radial-gradient(
-        circle, 
-        rgba(0, 0, 0, 0.5) 40%, /* Centro más oscuro */
-        rgba(0, 0, 0, 0.3) 70%, /* Opacidad intermedia */
-        rgba(0, 0, 0, 0.1) 90% /* Bordes más claros */
-    ), url("Imgs/Mamografia.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("Imgs/Mamografia.jpg");
+    background-size: cover;
     filter: drop-shadow(0 0 7px #bbb);
 }
 .estudio--ecografia{
-    background-image:radial-gradient(
-        circle,
-        rgba(0, 0, 0, 0.5) 40%, /* Centro más oscuro */
-        rgba(0, 0, 0, 0.3) 70%, /* Opacidad intermedia */
-        rgba(0, 0, 0, 0.1) 90% /* Bordes más claros */
-    ), url("Imgs/Ecografia.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("Imgs/Ecografia.jpg");
+    background-size: cover;
     filter: drop-shadow(0 0 7px #bbb);
 }
 .estudio--radiologia{
-    background-image:radial-gradient(
-        circle,
-        rgba(0, 0, 0, 0.5) 40%, /* Centro más oscuro */
-        rgba(0, 0, 0, 0.3) 70%, /* Opacidad intermedia */
-        rgba(0, 0, 0, 0.1) 90% /* Bordes más claros */
-    ), url("Imgs/Radiologia.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("Imgs/Radiologia.jpg");
+    background-size: cover;
     filter: drop-shadow(0 0 7px #bbb);
 }
 .estudio--densitometria{
-    background-image:radial-gradient(
-        circle,
-        rgba(0, 0, 0, 0.5) 40%, /* Centro más oscuro */
-        rgba(0, 0, 0, 0.3) 70%, /* Opacidad intermedia */
-        rgba(0, 0, 0, 0.1) 90% /* Bordes más claros */
-    ), url("Imgs/Densitometria.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("Imgs/Densitometria.jpg");
+    background-size: cover;
     filter: drop-shadow(0 0 7px #bbb);
 }
 
@@ -162,7 +138,7 @@ body{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); /*Ajusta bien la posicion del texto para que esté bien en el centro*/
     font-family: inherit;
     text-decoration: none;
     text-shadow: 0 0 2px #645745;
@@ -172,7 +148,8 @@ body{
     color: inherit;
 }
 .estudio__link:hover{
-    color: #c4781d;
+    color: #d09f5c;
+    text-shadow: 0 0 2px #cb9f61;
 }
 
 .turnos{
